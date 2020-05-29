@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="starter.CucumberTestSuite" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="PRIHUGOMO" time="0.0">
+  <properties/>
+  <system-out><![CDATA[Feature: Login into the application
+
+  @login
+  Scenario: Successful login                         ?[90m# src/test/resources/features/login/login.feature:4?[0m
+    ?[32mGiven ?[0m?[32m?[0m?[32m?[1mPepito?[0m?[32m has an active account?[0m               ?[90m# loginStepDefinitions.has_an_active_account(String)?[0m
+    ?[32mWhen ?[0m?[32mhe sends their valid credentials?[0m            ?[90m# loginStepDefinitions.he_sends_their_valid_credentials()?[0m
+    ?[32mThen ?[0m?[32mhe should have access to manage his account?[0m ?[90m# loginStepDefinitions.he_should_have_access_to_manage_his_account()?[0m
+
+1 Scenarios (?[32m1 passed?[0m)
+3 Steps (?[32m3 passed?[0m)
+0m17,088s
+
+]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+</testsuite>
